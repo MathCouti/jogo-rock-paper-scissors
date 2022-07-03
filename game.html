@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do Jo ken po</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="selection-opo">
+        <div class="nome-opo">
+            <h2>OPONENTE</h2>
+        </div>
+    <div class="nome">
+            <h2>JOGADOR</h2>
+    </div>
+        <div class="imagens-opo">
+            <img src="imagens/papel.png" alt="" id="img1-opo">
+            <img src="imagens/pedra.png" alt="" id="img2-opo">
+            <img src="imagens/tesoura.png" alt="" id="img3-opo">
+        </div>
+    
+    </div>
+
+
+<h1 id="startbot" onclick="start()">COMEÇAR</h1>
+
+<div id="result">
+    <h2 id="txt1">VOCÊ PERDEU</h2>
+    <h2 id="txt2" onclick="recomecar()">RECOMEÇAR</h2>
+</div>
+
+
+
+
+<div class="selection">
+
+    <div class="imagens">
+        <img src="imagens/papel.png" alt="" id="img1" onclick="select1()">
+        <img src="imagens/pedra.png" alt="" id="img2" onclick="select2()">
+        <img src="imagens/tesoura.png" alt="" id="img3" onclick="select3()">
+    </div>
+
+</div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
